@@ -22,13 +22,14 @@ Tools - https://software.hixie.ch/utilities/js/live-dom-viewer/
 3. Handle events
 4. Work with forms
 5. Maipulate CSS classes
+
 # Examples:
 1. Dynamic content
 2. Form Validation
 3. Dynamic content loading
 4. DOM event handling
 
-## Shadow DOM
+## Shadow DOM - Folder = /shadow-dom
 # Why?
 The Shadow DOM is a method of encapsulating/scoping different parts of a web page.
 - One example would be stopping styles that effect the document globally from affecting the shadow block
