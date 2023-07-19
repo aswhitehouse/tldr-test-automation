@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shadow DOM Example</title>
+</head>
+<body>
+  <my-component>
+    #shadow-root
+      <style>
+        h1 {
+          color: red;
+        }
+
+        button {
+          background-color: blue;
+          color: white;
+        }
+      </style>
+      <h1>Welcome to Shadow DOM Example</h1>
+      <button id="my-button">Click Me</button>
+  </my-component>
+  <script src="index.js"></script>
+</body>
+</html>

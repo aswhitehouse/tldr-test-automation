@@ -1,0 +1,21 @@
+{
+  "name": "shadow-dom",
+  "version": "1.0.0",
+  "description": "## Document Object Model - Is the representation of your HTML Document as objects within a model - Different implementations APIs in different browsers - DOM is manipulated by Javascript - The DOM is typically a \"tree\" data structure, starting at the root element, having nodes/child nodes etc Tools - https://software.hixie.ch/utilities/js/live-dom-viewer/",
+  "main": "sd-example-cy-test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^114.0.2",
+    "express": "^4.18.2",
+    "jest": "^29.6.1",
+    "playwright": "^1.36.1",
+    "selenium-webdriver": "^4.10.0"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.1"
+  }
+}
